@@ -1,8 +1,8 @@
 # Site settings
-title: AUV-IITK
-email: iitkauv@gmail.com
-copyright_name: AUV-IITK
-github_username: AUV-IITK
+title: Erica Gallardo
+email: gallardo.erica.r@gmail.com
+copyright_name:EG
+github_username: EricaGallardo
 
 collections:
   vehicles :
