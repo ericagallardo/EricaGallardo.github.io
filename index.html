@@ -13,7 +13,7 @@ layout: default
                         <header class="major">
                             <h2>Who am I?</h2>
                         </header>
-                        <p>Hi, thanks for stopping by! I'm Erica, an international researcher with a passion for all aspects of <i>human-centered design.</i><br> </p>
+                        <p>Hi, thanks for stopping by! I'm Erica, an international researcher with a passion for all aspects of <bf>human-centered design.</bf><br> I have half a decade of experience leading, supporting, and designing user-centered research for businesses, non-profit organizations, and international aid agencies. My foremost goal is to use the insights from my research to make context-specific, practical, data-driven decisions.</p>
                     </div>
                     <span class="image"><img src="images/kid avatar.jpg" alt="erica" /></span>
                 </div>
@@ -31,20 +31,5 @@ layout: default
                     </li>
                     {% endfor %}
                 </ul>
-            </section>
-            <section id="previous" class="main special">
-                <header class="major">
-                    <h2>Previous Work</h2>
-                </header>
-                    {% for item in site.competition %}
-                    <p style="clear: both;">
-                    <span class="image {% cycle 'left', 'right' %}"><img src="{{ item.image }}" alt="" /></span>
-                    <h3> {{ item.title }} </h3>
-                    {{ item.description }}
-                    <a href="{{ item.link }}"><i>Read more...</i></a>
-                    </p>
-                    <br>
-                    {% endfor %}
-            </section>
-         
+            </section>       
         </div>
