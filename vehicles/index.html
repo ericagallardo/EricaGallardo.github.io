@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Portfolio
-description: My work!
+description: A selection of my work to date
 ---
         <!-- Header -->
         <header id="header">
@@ -10,21 +10,6 @@ description: My work!
         </header>
         <div id="main">
             <section class="main">
-            {% assign sorted = (site.vehicles | sort: 'date') | reverse %}
-            {% for vehicle in sorted %}
-                <div class="spotlight">
-                    <div class="content">
-                        <header class="major">
-                            <h2>{{ vehicle.name }}</h2>
-                        </header>
-                        <p>{{ vehicle.description }}</p>
-                        <br>
-                        <ul class="actions">
-                            <li><a href="{{ vehicle.link }}" class="button">Learn More</a></li>
-                        </ul>
-                    </div>
-                    <span class="image"><img src="{{ vehicle.image }}" alt="{{ vehicle.name }}" /></span>
-                </div>
-            {% endfor %}
+            Coming soon!
             </section>
         </div>
