@@ -174,6 +174,6 @@ $(function() {
     $(".typed").typed({
         strings: ["A Platform For Reseach in Human-Centered Design !"],
         startDelay: 1000,
-        typeSpeed: 10
+        typeSpeed: 5
     });
 });
