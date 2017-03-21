@@ -1,6 +1,6 @@
 ---
 title: Qualitative
-icon: fa-gears
+icon: fa-pencil
 iconstyle: style3
 description: Ethnographic research, longitudinal studies, focus groups, heuristic evaluation, diaries
 ---
