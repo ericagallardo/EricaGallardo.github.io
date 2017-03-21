@@ -172,8 +172,8 @@ jQuery(document).ready(function($) {
 // typing animation
 $(function() {
     $(".typed").typed({
-        strings: ["A Platform For Reseach in Human-Centered Design !"],
+        strings: ["Welcome to my Platform For Reseach in Human-Centered Design! Scroll down to learn more..."],
         startDelay: 1000,
-        typeSpeed: 5
+        typeSpeed: 4
     });
 });
