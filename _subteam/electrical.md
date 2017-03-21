@@ -2,5 +2,5 @@
 title: Quantitative
 icon: fa-signal
 iconstyle: style5
-description: Sampling design, regression modeling, quasi-experimental methods, A/B testing
+description: Sampling design, regression modeling, quasi-experimental methods, A/B testing, impact evaluations, randomized controlled trials
 ---
