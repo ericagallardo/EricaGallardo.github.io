@@ -1,6 +1,6 @@
 ---
-title: Mechanical
+title: Qualitative
 icon: fa-gears
 iconstyle: style3
-description: The mechanical team is responsible for designing, prototyping and manufacturing of complete vehicle consisting of frame, waterproof hull, torpedoes etc.
+description: Ethnographic research, longitudinal studies, focus groups, heuristic evaluation, diaries
 ---
