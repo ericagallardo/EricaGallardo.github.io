@@ -4,37 +4,34 @@ title: Resources
 description: My favorite sources of HCD and UX inspiration. <br> I hope you find the resources below useful in your exploration of human-centered design!
 ---
         <!-- Header -->
-        <header id="header">
-                <h1>{{ page.title }}</h1>
-                <p>{{ page.description }}</p>
+        <header id="header" class="alt">
         </header>
-        </div>
         <div id="main">
-                <section id="intro" class="main">
-                <div class="spotlight">
-                    <div class="content">
-                        <header class="major">
-                            <h2>Where to Begin?</h2>
-                        </header>
-                        <p>Hi, thanks for stopping by! I'm Erica, an international researcher with a passion for all aspects of <strong>human-centered design.</strong><br> <br> I have half a decade of experience leading, supporting, and designing user-centered research for businesses, non-profit organizations, and international aid agencies. My foremost goal is to use the insights from my research to make context-specific, practical, data-driven decisions. Feel free to reach out if you'd like to know more!</p>
-                                   </div>
-            </section>  
             <section id="intro" class="main">
                 <div class="spotlight">
                     <div class="content">
                         <header class="major">
-                            <h2>Academic</h2>
+                            <h2>Who am I?</h2>
                         </header>
                         <p>Hi, thanks for stopping by! I'm Erica, an international researcher with a passion for all aspects of <strong>human-centered design.</strong><br> <br> I have half a decade of experience leading, supporting, and designing user-centered research for businesses, non-profit organizations, and international aid agencies. My foremost goal is to use the insights from my research to make context-specific, practical, data-driven decisions. Feel free to reach out if you'd like to know more!</p>
-                                   </div>
-            </section>  
-                    <section id="intro" class="main">
-                <div class="spotlight">
-                    <div class="content">
-                        <header class="major">
-                            <h2>Just for Fun</h2>
-                        </header>
-                        <p>Hi, thanks for stopping by! I'm Erica, an international researcher with a passion for all aspects of <strong>human-centered design.</strong><br> <br> I have half a decade of experience leading, supporting, and designing user-centered research for businesses, non-profit organizations, and international aid agencies. My foremost goal is to use the insights from my research to make context-specific, practical, data-driven decisions. Feel free to reach out if you'd like to know more!</p>
-                                   </div>
-            </section>  
+                    </div>
+                    <span class="image"><img src="images/kid avatar.jpg" alt="erica" /></span>
+                </div>
+            </section>
+            <section id="specialties" class="main special">
+                <header class="major">
+                    <h2>Specialties</h2>
+                </header>
+                <ul class="features">
+                    {% for item in site.subteam %}
+                    <li>
+                        <span class="icon major {{ item.iconstyle }} {{ item.icon }}"></span>
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>       
         </div>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
